@@ -3,8 +3,8 @@ import "./style.css";
 
 function JumboLanding() {
   return (
-    <div>
-      <div className="jumbotron">
+    <section class="intro-jumbotron" id="intro">
+      <div className="jumbotext">
         <p className="text-white" id="intro-text">
           Hello! I'm <br />
           <span className="name-text">Jervis Bay</span>
@@ -16,7 +16,7 @@ function JumboLanding() {
           <button className="work-button"><a href="#portfolio">See My Work Here.</a></button>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 

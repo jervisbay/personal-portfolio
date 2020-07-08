@@ -1,6 +1,6 @@
 import React from "react";
 import "../../style.css";
-import "../../background.css";
+
 
 function AboutMe() {
     return (
@@ -10,7 +10,7 @@ function AboutMe() {
         <br />
         <div class="container flex-about-container">
             <div class="flex-about-text-1">
-                <img src="../../../src/assets/images/Flag_of_Singapore.svg" id="flex-image" />
+                <img src={require("./Flag_of_Singapore.svg")} id="flex-image"></img>
             </div>
             <div class="flex-about-text-2" id="gray-background">
                 <p class="about-text">Born in <span id="red">Singa</span><span id="white">pore</span>.<br /> Studied in Virginia.
@@ -22,7 +22,7 @@ function AboutMe() {
     
         <div class="container flex-about-container">
             <div class="flex-about-text-1">
-                <img src="../../../src/assets/images/ny-skyline.jpg" id="flex-image" />
+                <img src={require("./ny-skyline.jpg")} id="flex-image"></img>
     
             </div>
             <div class="flex-about-text-2" id="gray-background">
@@ -36,7 +36,7 @@ function AboutMe() {
     
         <div class="container flex-about-container">
             <div class="flex-about-text-1">
-                <img src="../../../src/assets/images/tracy-waffles.jpeg" id="flex-image" />
+                <img src={require("./tracy-waffles.jpeg")} id="flex-image"></img>
             </div>
             <div class="flex-about-text-2" id="gray-background">
                 <p class="about-text">Currently living in Brooklyn with my wife and corgi.</p>

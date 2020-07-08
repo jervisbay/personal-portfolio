@@ -14,7 +14,10 @@ function App() {
       <div>
         <JumboLanding />
         <Navbar />
+        <br />
+        <br />
         <AboutMe />
+        <br />
         <Portfolio />
         <Footer />
       </div>
