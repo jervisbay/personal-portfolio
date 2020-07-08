@@ -1,6 +1,3 @@
-## Employee Directory
+## Portfolio Page
 
-Lists employees in an organization (using randomuser api)
-
-Type in the characters of a employee's name to dynamically filter the employee directory in real-time
-
+This is a single page portfolio website built using React.
